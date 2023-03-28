@@ -10,4 +10,8 @@ class GesimaController extends Controller
     {
         return view('Nosservices');
     }
+    public function apropos()
+    {
+return view('apropos');
+    }
 }

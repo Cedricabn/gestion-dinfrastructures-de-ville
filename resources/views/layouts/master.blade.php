@@ -87,7 +87,7 @@ background-image:url('img/backb.jpg') ;
 <nav class="navbar navbar-expand-lg   flex-column flex-md-row bd-navbar " aria-label="Main navigation" >
   <div class="container-fluid">
   <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-      <img src="{{ asset('img/logo.jpg') }}" alt="Mairiedecotonoulogo" style="border-style: none;" width="40" height="100%" class=" logo me-auto rounded" border-radius="3" viewBox="0 0 118 94"> 
+      <img src="{{ asset('img/logo.png') }}" alt="logo" style="border-style: none;" width="60" height="100%" class=" logo me-auto rounded" border-radius="3" viewBox="0 0 118 94"> 
       <h1><span class=" logo mx-5 fs-4 text-info">GESIMA</span> </h1>
       </a>
     <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
@@ -103,7 +103,7 @@ background-image:url('img/backb.jpg') ;
           <a class="nav-link mx-4 text-" href="{{ route('NosServices') }}">Nos services</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link mx-4" href="">A propos</a>
+          <a class="nav-link mx-4" href="{{ route('Apropos') }}">A propos</a>
         </li>
         <div class="dropdown">
         <li class="nav-item dropdown">

@@ -1,7 +1,7 @@
 @extends("layouts.master")
 
 @section("contenu")
-<br><br>
+<br><br><br><br>
 <div class="mt-4">
 <div class="d-flex justify-content-end mb=4 ">
        <a href="{{route('equipement.create')}}" class="btn btn-info"> Ajouter un equipement</a>

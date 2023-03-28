@@ -79,3 +79,5 @@ Route::get('/ListedesMarchés',[ MarchéControlleur::class, "acces"])->name("Lis
 Route::get('/ListedesBoutiques',[ Boutiques::class, "acces"])->name("ListeBoutiques");
 
 Route::get('/ListedesEquipements',[ Equipementcontrolleur::class, "acces"])->name("ListeEquipements");
+
+Route::get('/Apropos',[ GesimaController::class, "apropos"])->name("Apropos");
